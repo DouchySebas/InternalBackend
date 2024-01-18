@@ -20,7 +20,7 @@ app.use((_req, res, next) => {
 // Use body-parser middleware to parse JSON requests
 app.use(bodyParser.json());
 
-// Create a MySQL database connection
+// Create a MySQL database connection, retrieving contents from process.env instead
 const db = mysql.createConnection({
     host: process.env.DB_HOST,
     user: process.env.DB_USER,
