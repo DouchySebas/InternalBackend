@@ -38,7 +38,7 @@ To run the backend server locally, follow the steps below:
 
 4. Configure MySQL connection:
 
-   - Create a new file `.env` and modify the `db` constant to match your MySQL server configuration (host, user, password, database). Sample File contents as follows:
+   - Run the command below to create a new file `.env` and modify the `db` constant to match your MySQL server configuration (host, user, password, database).
    ```
    echo 'DB_USER=your_db_user
    DB_PASSWORD=your_password
