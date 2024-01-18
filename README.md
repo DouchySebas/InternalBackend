@@ -52,7 +52,7 @@ To run the backend server locally, follow the steps below:
    node BackendApp.js
    ```
 
-   The server will be started at `http://localhost:3001`, with another message indicating that your computer is not Connected to MySQL.
+   The server will be started, with another message indicating that your computer is now Connected to MySQL.
 
 ## API Endpoints
 
