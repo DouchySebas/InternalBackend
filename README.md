@@ -43,7 +43,7 @@ To run the backend server locally, follow the steps below:
 5. Run the backend server:
 
    ```bash
-   npm start
+   node BackendApp.js
    ```
 
    The server will be accessible at `http://localhost:3001`.
