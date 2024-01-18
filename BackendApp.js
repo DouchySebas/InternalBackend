@@ -1,11 +1,12 @@
 // Import necessary modules
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
 
 // Create an Express application
 const app = express();
-const PORT = 3001;
+const PORT = process.env.PORT;
 
 // Set up CORS headers to allow cross-origin requests
 app.use((_req, res, next) => {
@@ -21,10 +22,10 @@ app.use(bodyParser.json());
 
 // Create a MySQL database connection
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'InternalBackend',
-    password: 'password',
-    database: 'lhngroupassessment'
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
 });
 
 // Connect to the MySQL database
