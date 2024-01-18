@@ -24,10 +24,10 @@ To run the backend server locally, follow the steps below:
    git clone https://github.com/DouchySebas/InternalBackend
    ```
 
-2. Navigate to the `backend` directory:
+2. Navigate to the `InternalBackend` directory:
 
    ```bash
-   cd backend
+   cd InternalBackend
    ```
 
 3. Install dependencies:
