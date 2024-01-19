@@ -5,7 +5,8 @@ This is the backend server for a simple task management application built using 
 ## Prerequisite
 
 - Git Bash for execution of the commands below.
-- Existing MySQL database, with the Database 'tasks' structure below already inserted 
+- Existing MySQL database, with the Database 'tasks' structure below already inserted
+- Node.js LTS is installed correctly (Download URL: https://nodejs.org/en/download/)
 
 ## Features
 
