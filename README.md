@@ -20,6 +20,19 @@ This is the backend server for a simple task management application built using 
 - **Express:** Web framework for building APIs.
 - **MySQL:** Relational database for storing tasks.
 
+## Database Structure
+
+The application uses a MySQL database with a single table `tasks`:
+
+```sql
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    completed BOOLEAN DEFAULT false
+);
+```
+
 ## Getting Started
 
 To run the backend server locally, follow the steps below:
@@ -71,19 +84,6 @@ To run the backend server locally, follow the steps below:
 
 - **PUT /api/tasks/:id:** Update task completion status.
   - Response: Updated task object.
-
-## Database Structure
-
-The application uses a MySQL database with a single table `tasks`:
-
-```sql
-CREATE TABLE tasks (
-    id INT AUTO_INCREMENT PRIMARY KEY,
-    title VARCHAR(255) NOT NULL,
-    description TEXT,
-    completed BOOLEAN DEFAULT false
-);
-```
 
 ## Contributing
 
