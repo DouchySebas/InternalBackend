@@ -5,7 +5,7 @@ This is the backend server for a simple task management application built using 
 ## Prerequisite
 
 - Git Bash for execution of the commands below.
-- Existing MySQL database, with the Database 'tasks' structure below already inserted
+- Existing MySQL database, with the Database table 'tasks' below already inserted.
 - Node.js LTS is installed correctly, with NPM support (Download URL: https://nodejs.org/en/download/)
 
 ## Features
@@ -57,11 +57,11 @@ To run the backend server locally, follow the steps below:
 
 4. Configure MySQL connection:
 
-   - Run the command below to create a new file `.env` and modify the `db` constant to match your MySQL server configuration (host, user, password, database).
+   - Run the command below to create a new file `.env` and modify the `db` constant to match your MySQL server configuration (host, user, password, database schema).
    ```
    echo 'DB_USER=your_db_user
    DB_PASSWORD=your_password
-   DB_DATABASE=your_database
+   DB_SCHEMA=your_database_schema
    PORT=3001' > .env
    ```
 
