@@ -2,6 +2,11 @@
 
 This is the backend server for a simple task management application built using Node.js, Express, and MySQL. The server provides RESTful API endpoints for handling tasks, including creating new tasks, retrieving all tasks, and updating task completion status.
 
+## Prerequisite
+
+- Git Bash for execution of the commands below.
+- Existing MySQL database, with the Database 'tasks' structure below already inserted 
+
 ## Features
 
 - Create a new task with title and description.
