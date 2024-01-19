@@ -57,11 +57,11 @@ To run the backend server locally, follow the steps below:
 
 4. Configure MySQL connection:
 
-   - Run the command below to create a new file `.env` and modify the `db` constant to match your MySQL server configuration (host, user, password, database).
+   - Run the command below to create a new file `.env` and modify the `db` constant to match your MySQL server configuration (host, user, password, database schema).
    ```
    echo 'DB_USER=your_db_user
    DB_PASSWORD=your_password
-   DB_DATABASE=your_database
+   DB_SCHEMA=your_database_schema
    PORT=3001' > .env
    ```
 
